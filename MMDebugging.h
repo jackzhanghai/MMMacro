@@ -60,7 +60,7 @@
 
 
 #pragma mark - Some Functions
-#define USER_DEFAULT [NSUserDefaults standardUserDefaults];
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
 #define NOTIFICATION_CENTER         [NSNotificationCenter defaultCenter]
 #define IMAGE_CACHE                 [SDImageCache sharedImageCache]
 #define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
