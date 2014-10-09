@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MMMacro"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "A common macro definition for iOS"
   s.homepage     = "https://github.com/zengyun-programmer/MMMacro"
   s.license      = { :type => 'MIT', :text => <<-LICENSE
@@ -38,7 +38,7 @@ THE SOFTWARE.
     LICENSE
   }
   s.author       = { "Programmer Du" => "zengyun.programmer@gmail.com" }
-  s.source       = { :git => "git@github.com:zengyun-programmer/MMMacro.git",:tag=>"v1.0" }
+  s.source       = { :git => "git@github.com:zengyun-programmer/MMMacro.git",:tag=>"v1.0.1" }
   s.source_files = 'MMDebugging.h'
   s.requires_arc = true
 end
